@@ -18,14 +18,14 @@ Icons are named `rex_<style>_<color>.png`:
 
 | Color    | Modern Geek                                                   | Retro Pixel                                                   |
 | -------- | ------------------------------------------------------------- | ------------------------------------------------------------- |
-| Blue     | [rex_modern_geek_blue.png](rex_modern_geek_blue.png)         | [rex_retro_pixel_blue.png](rex_retro_pixel_blue.png)         |
-| Purple   | [rex_modern_geek_purple.png](rex_modern_geek_purple.png)     | [rex_retro_pixel_purple.png](rex_retro_pixel_purple.png)     |
-| Pink     | [rex_modern_geek_pink.png](rex_modern_geek_pink.png)         | [rex_retro_pixel_pink.png](rex_retro_pixel_pink.png)         |
-| Red      | [rex_modern_geek_red.png](rex_modern_geek_red.png)           | [rex_retro_pixel_red.png](rex_retro_pixel_red.png)           |
-| Orange   | [rex_modern_geek_orange.png](rex_modern_geek_orange.png)     | [rex_retro_pixel_orange.png](rex_retro_pixel_orange.png)     |
-| Yellow   | [rex_modern_geek_yellow.png](rex_modern_geek_yellow.png)     | [rex_retro_pixel_yellow.png](rex_retro_pixel_yellow.png)     |
-| Green    | [rex_modern_geek_green.png](rex_modern_geek_green.png)       | [rex_retro_pixel_green.png](rex_retro_pixel_green.png)       |
-| Graphite | [rex_modern_geek_graphite.png](rex_modern_geek_graphite.png) | [rex_retro_pixel_graphite.png](rex_retro_pixel_graphite.png) |
+| Blue     | [rex_modern_geek_blue.png](icons/rex_modern_geek_blue.png)         | [rex_retro_pixel_blue.png](icons/rex_retro_pixel_blue.png)         |
+| Purple   | [rex_modern_geek_purple.png](icons/rex_modern_geek_purple.png)     | [rex_retro_pixel_purple.png](icons/rex_retro_pixel_purple.png)     |
+| Pink     | [rex_modern_geek_pink.png](icons/rex_modern_geek_pink.png)         | [rex_retro_pixel_pink.png](icons/rex_retro_pixel_pink.png)         |
+| Red      | [rex_modern_geek_red.png](icons/rex_modern_geek_red.png)           | [rex_retro_pixel_red.png](icons/rex_retro_pixel_red.png)           |
+| Orange   | [rex_modern_geek_orange.png](icons/rex_modern_geek_orange.png)     | [rex_retro_pixel_orange.png](icons/rex_retro_pixel_orange.png)     |
+| Yellow   | [rex_modern_geek_yellow.png](icons/rex_modern_geek_yellow.png)     | [rex_retro_pixel_yellow.png](icons/rex_retro_pixel_yellow.png)     |
+| Green    | [rex_modern_geek_green.png](icons/rex_modern_geek_green.png)       | [rex_retro_pixel_green.png](icons/rex_retro_pixel_green.png)       |
+| Graphite | [rex_modern_geek_graphite.png](icons/rex_modern_geek_graphite.png) | [rex_retro_pixel_graphite.png](icons/rex_retro_pixel_graphite.png) |
 
 ## Replacing the Rex icon on macOS
 
@@ -42,7 +42,7 @@ Icons are named `rex_<style>_<color>.png`:
 Same result without clicking around, using only built-in tools:
 
 ```sh
-ICON="$PWD/rex_modern_geek_blue.png"
+ICON="$PWD/icons/rex_modern_geek_blue.png"
 APP="/Applications/Rex Beta.app"
 
 osascript -l JavaScript -e "
