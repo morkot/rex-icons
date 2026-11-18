@@ -4,13 +4,16 @@ Set of icons to use as a temporary replacement for [Rex Beta](https://www.superl
 
 Two styles, eight colors each, all 1024×1024 PNG.
 
-## Modern Geek
-
-![Modern Geek icons](sheet_modern_geek.png)
-
-## Retro Pixel
-
-![Retro Pixel icons](sheet_retro_pixel.png)
+<table>
+  <tr>
+    <th>Modern Geek</th>
+    <th>Retro Pixel</th>
+  </tr>
+  <tr>
+    <td><img src="sheet_modern_geek.png" alt="Modern Geek icons" width="400"></td>
+    <td><img src="sheet_retro_pixel.png" alt="Retro Pixel icons" width="400"></td>
+  </tr>
+</table>
 
 ## Files
 
@@ -42,7 +45,7 @@ Icons are named `rex_<style>_<color>.png`:
 Same result without clicking around, using only built-in tools:
 
 ```sh
-ICON="$PWD/icons/rex_modern_geek_blue.png"
+ICON="$PWD/icons/rex_retro_pixel_green.png"
 APP="/Applications/Rex Beta.app"
 
 osascript -l JavaScript -e "
