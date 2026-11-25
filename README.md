@@ -35,7 +35,7 @@ Icons are named `rex_<style>_<color>.png`:
 ### Finder
 
 1. Open the PNG you like in **Preview** and copy it (`⌘A`, `⌘C`).
-2. In **Finder**, go to `/Applications`, select **Rex Beta**, and press `⌘I` (Get Info).
+2. In **Finder**, go to `/Applications`, select **Rex**, and press `⌘I` (Get Info).
 3. Click the small icon in the top-left corner of the Info window so it gets highlighted.
 4. Paste (`⌘V`). Enter your password if asked.
 5. Quit and reopen Rex (`⌘Q`) to see the new icon in the Dock.
@@ -46,7 +46,7 @@ Same result without clicking around, using only built-in tools:
 
 ```sh
 ICON="$PWD/icons/rex_retro_pixel_green.png"
-APP="/Applications/Rex Beta.app"
+APP="/Applications/Rex.app"
 
 osascript -l JavaScript -e "
   ObjC.import('AppKit');
@@ -58,7 +58,7 @@ Then quit and reopen Rex (`⌘Q`) to see the new icon in the Dock.
 
 ### Restoring the default icon
 
-Open Get Info on **Rex Beta**, select the icon in the top-left corner, and press `Delete`.
+Open Get Info on **Rex**, select the icon in the top-left corner, and press `Delete`.
 
 > [!NOTE]
 > A custom icon is stored on the app bundle, so a Rex update may reset it. Just apply it again.
